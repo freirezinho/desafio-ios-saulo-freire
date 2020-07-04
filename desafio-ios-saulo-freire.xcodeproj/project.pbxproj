@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CF367324B112040009F641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367224B112040009F641 /* AppDelegate.swift */; };
+		04CF367524B112040009F641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367424B112040009F641 /* SceneDelegate.swift */; };
+		04CF367724B112040009F641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367624B112040009F641 /* ViewController.swift */; };
+		04CF367A24B112040009F641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367824B112040009F641 /* Main.storyboard */; };
+		04CF367C24B1120A0009F641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367B24B1120A0009F641 /* Assets.xcassets */; };
+		04CF367F24B1120A0009F641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367D24B1120A0009F641 /* LaunchScreen.storyboard */; };
+		04CF368A24B1120A0009F641 /* desafio_ios_saulo_freireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CF368624B1120A0009F641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CF366724B112040009F641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CF366E24B112040009F641;
+			remoteInfo = "desafio-ios-saulo-freire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CF366F24B112040009F641 /* desafio-ios-saulo-freire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-saulo-freire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CF367224B112040009F641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CF367424B112040009F641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04CF367624B112040009F641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CF367924B112040009F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CF367B24B1120A0009F641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CF367E24B1120A0009F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CF368024B1120A0009F641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CF368524B1120A0009F641 /* desafio-ios-saulo-freireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-ios-saulo-freireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_ios_saulo_freireTests.swift; sourceTree = "<group>"; };
+		04CF368B24B1120A0009F641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CF366C24B112040009F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF368224B1120A0009F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CF366624B112040009F641 = {
+			isa = PBXGroup;
+			children = (
+				04CF367124B112040009F641 /* desafio-ios-saulo-freire */,
+				04CF368824B1120A0009F641 /* desafio-ios-saulo-freireTests */,
+				04CF367024B112040009F641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CF367024B112040009F641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CF366F24B112040009F641 /* desafio-ios-saulo-freire.app */,
+				04CF368524B1120A0009F641 /* desafio-ios-saulo-freireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CF367124B112040009F641 /* desafio-ios-saulo-freire */ = {
+			isa = PBXGroup;
+			children = (
+				04CF367224B112040009F641 /* AppDelegate.swift */,
+				04CF367424B112040009F641 /* SceneDelegate.swift */,
+				04CF367624B112040009F641 /* ViewController.swift */,
+				04CF367824B112040009F641 /* Main.storyboard */,
+				04CF367B24B1120A0009F641 /* Assets.xcassets */,
+				04CF367D24B1120A0009F641 /* LaunchScreen.storyboard */,
+				04CF368024B1120A0009F641 /* Info.plist */,
+			);
+			path = "desafio-ios-saulo-freire";
+			sourceTree = "<group>";
+		};
+		04CF368824B1120A0009F641 /* desafio-ios-saulo-freireTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */,
+				04CF368B24B1120A0009F641 /* Info.plist */,
+			);
+			path = "desafio-ios-saulo-freireTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CF366E24B112040009F641 /* desafio-ios-saulo-freire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CF368E24B1120A0009F641 /* Build configuration list for PBXNativeTarget "desafio-ios-saulo-freire" */;
+			buildPhases = (
+				04CF366B24B112040009F641 /* Sources */,
+				04CF366C24B112040009F641 /* Frameworks */,
+				04CF366D24B112040009F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "desafio-ios-saulo-freire";
+			productName = "desafio-ios-saulo-freire";
+			productReference = 04CF366F24B112040009F641 /* desafio-ios-saulo-freire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CF368424B1120A0009F641 /* desafio-ios-saulo-freireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CF369124B1120A0009F641 /* Build configuration list for PBXNativeTarget "desafio-ios-saulo-freireTests" */;
+			buildPhases = (
+				04CF368124B1120A0009F641 /* Sources */,
+				04CF368224B1120A0009F641 /* Frameworks */,
+				04CF368324B1120A0009F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CF368724B1120A0009F641 /* PBXTargetDependency */,
+			);
+			name = "desafio-ios-saulo-freireTests";
+			productName = "desafio-ios-saulo-freireTests";
+			productReference = 04CF368524B1120A0009F641 /* desafio-ios-saulo-freireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CF366724B112040009F641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Saulo Freire";
+				TargetAttributes = {
+					04CF366E24B112040009F641 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					04CF368424B1120A0009F641 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04CF366E24B112040009F641;
+					};
+				};
+			};
+			buildConfigurationList = 04CF366A24B112040009F641 /* Build configuration list for PBXProject "desafio-ios-saulo-freire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CF366624B112040009F641;
+			productRefGroup = 04CF367024B112040009F641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CF366E24B112040009F641 /* desafio-ios-saulo-freire */,
+				04CF368424B1120A0009F641 /* desafio-ios-saulo-freireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CF366D24B112040009F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF367F24B1120A0009F641 /* LaunchScreen.storyboard in Resources */,
+				04CF367C24B1120A0009F641 /* Assets.xcassets in Resources */,
+				04CF367A24B112040009F641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF368324B1120A0009F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CF366B24B112040009F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF367724B112040009F641 /* ViewController.swift in Sources */,
+				04CF367324B112040009F641 /* AppDelegate.swift in Sources */,
+				04CF367524B112040009F641 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CF368124B1120A0009F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF368A24B1120A0009F641 /* desafio_ios_saulo_freireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CF368724B1120A0009F641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CF366E24B112040009F641 /* desafio-ios-saulo-freire */;
+			targetProxy = 04CF368624B1120A0009F641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CF367824B112040009F641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CF367924B112040009F641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CF367D24B1120A0009F641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CF367E24B1120A0009F641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CF368C24B1120A0009F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CF368D24B1120A0009F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CF368F24B1120A0009F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-ios-saulo-freire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CF369024B1120A0009F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-ios-saulo-freire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CF369224B1120A0009F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-ios-saulo-freireTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-ios-saulo-freire.app/desafio-ios-saulo-freire";
+			};
+			name = Debug;
+		};
+		04CF369324B1120A0009F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-ios-saulo-freireTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-ios-saulo-freire.app/desafio-ios-saulo-freire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CF366A24B112040009F641 /* Build configuration list for PBXProject "desafio-ios-saulo-freire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF368C24B1120A0009F641 /* Debug */,
+				04CF368D24B1120A0009F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CF368E24B1120A0009F641 /* Build configuration list for PBXNativeTarget "desafio-ios-saulo-freire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF368F24B1120A0009F641 /* Debug */,
+				04CF369024B1120A0009F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CF369124B1120A0009F641 /* Build configuration list for PBXNativeTarget "desafio-ios-saulo-freireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CF369224B1120A0009F641 /* Debug */,
+				04CF369324B1120A0009F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CF366724B112040009F641 /* Project object */;
+}
