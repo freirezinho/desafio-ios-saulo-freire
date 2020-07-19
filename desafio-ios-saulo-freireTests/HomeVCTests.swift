@@ -17,8 +17,11 @@ class HomeVCTests: XCTestCase {
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
+        let bundle = Bundle(for: self.classForCoder)
+        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
+
         window = UIWindow()
-        sut = HomeViewController()
+        sut = (storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController)
         charvc = CharacterViewController()
         charSegue = UIStoryboardSegue(identifier: K.characterSegue, source: sut, destination: charvc)
     }
@@ -90,12 +93,8 @@ class HomeVCTests: XCTestCase {
         XCTAssertNotNil(table)
     }
     func testTableViewDataSource() {
-        let bundle = Bundle(for: self.classForCoder)
-        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        
-        _ = homeViewController.view
-        let table = homeViewController.charTable
+        loadView()
+        let table = sut.charTable
         let tableDS = CharactersDataSourceMock()
         table?.dataSource = tableDS
         XCTAssertTrue(table?.dataSource === tableDS)
@@ -103,35 +102,24 @@ class HomeVCTests: XCTestCase {
     
     func testTableViewDataSourceProtocol(){
         let bundle = Bundle(for: self.classForCoder)
-        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-        let homeVC = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        
-        _ = homeVC.view
+        loadView()
         let characters: APIResponse<[APICharacter]>
         if let data = convertJsonToData() {
             do {
 
                 characters = try JSONDecoder().decode(APIResponse<[APICharacter]>.self, from: data)
                 if let decodedCharacters = characters.data {
-                    homeVC.updateCharactersArray(decodedCharacters)
-                   let marvelHeroCount = homeVC.marvelHeroes.count
-                    homeVC.charTable.dataSource = homeVC
-                    homeVC.charTable.register(UINib(nibName: K.cellNibName, bundle: bundle), forCellReuseIdentifier: K.cellIdentifier)
-                   homeVC.charTable.reloadData()
-                   let numOfRows = homeVC.tableView(homeVC.charTable, numberOfRowsInSection: 0)
+                    sut.updateCharactersArray(decodedCharacters)
+                   let marvelHeroCount = sut.marvelHeroes.count
+                    sut.charTable.dataSource = sut
+                    sut.charTable.register(UINib(nibName: K.cellNibName, bundle: bundle), forCellReuseIdentifier: K.cellIdentifier)
+                   sut.charTable.reloadData()
+                   let numOfRows = sut.tableView(sut.charTable, numberOfRowsInSection: 0)
                    XCTAssertEqual(numOfRows, marvelHeroCount)
-//                   let iPath = IndexPath(row: numOfRows - 1, section: 0)
-//                    homeVC.charTable.scrollToRow(at: iPath, at: .bottom, animated: false)
-//                    let expect = expectation(description: "Test scroll")
-//                    print(homeVC.marvelHeroes.count)
-//                   XCTAssertEqual(marvelHeroCount * 2, homeVC.marvelHeroes.count)
                    let iPath2 = IndexPath(row: 1, section: 0)
            
-                   let tableCell = homeVC.tableView(homeVC.charTable, cellForRowAt: iPath2)
+                   let tableCell = sut.tableView(sut.charTable, cellForRowAt: iPath2)
                    XCTAssertTrue(tableCell is MarvelCharacterCell)
-//                   XCTAssertTrue(homeVC.blockRequests)
-//                    expect.fulfill()
-//                    wait(for: [expect], timeout: 10)
                 }
             } catch {
               print(error)

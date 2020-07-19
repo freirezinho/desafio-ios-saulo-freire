@@ -98,7 +98,6 @@ class Utils {
             uri = "\(apiUri)&limit=\(limit)&offset=\(offset)"
         }
         if let endpoint = URL(string: uri) {
-            print(endpoint)
             let session = URLSession(configuration: .default)
             let task = session.dataTask(with: endpoint) {
                 data, response, error in
@@ -116,9 +115,8 @@ class Utils {
                     } catch {
                         completion(.failure(APIError.decodingError))
                     }
-                } else if let error = error {
-                    let checkError = apiErrorChecker(message: error.localizedDescription)
-                    completion(.failure(checkError))
+                } else if error != nil {
+                    completion(.failure(APIError.networkError))
                 }
             }
             task.resume()

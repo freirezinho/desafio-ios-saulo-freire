@@ -59,26 +59,26 @@ class HomeViewController: UIViewController, APIWorker {
                     self.errorView = UIView()
                     self.errorView.isHidden = false
                     self.errorView.backgroundColor = .white
-                    self.errorView.translatesAutoresizingMaskIntoConstraints = false
+                self.errorView.translatesAutoresizingMaskIntoConstraints = false
                     self.errorLabel = UILabel()
-                    self.errorLabel.translatesAutoresizingMaskIntoConstraints = false
+                self.errorLabel.translatesAutoresizingMaskIntoConstraints = false
                     self.errorLabel.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
                     self.errorLabel.alpha = 0.35
                     self.errorLabel.numberOfLines = 2
                     self.errorLabel.textAlignment = .center
                     self.errorLabel.text = errorToMessage.1
-                    self.mainStackView.addArrangedSubview(self.errorView)
+                self.mainStackView.addArrangedSubview(self.errorView)
                     self.errorView.addSubview(self.errorLabel)
-                    self.errorView.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
+                self.errorView.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
                     NSLayoutConstraint.activate([
-                        self.errorView.bottomAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.bottomAnchor, constant: 0),
-                        self.errorView.heightAnchor.constraint(greaterThanOrEqualToConstant: 500),
-                        self.errorView.trailingAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.trailingAnchor),
-                        self.errorView.leadingAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.leadingAnchor),
-                        self.errorView.centerXAnchor.constraint(equalTo: self.mainStackView.centerXAnchor),
-                        self.errorLabel.topAnchor.constraint(equalTo: self.errorView.centerYAnchor),
-                        self.errorLabel.trailingAnchor.constraint(equalTo: self.errorView.layoutMarginsGuide.trailingAnchor, constant: 1),
-                         self.errorLabel.leadingAnchor.constraint(equalTo: self.errorView.layoutMarginsGuide.leadingAnchor, constant: 1)
+                    self.errorView.bottomAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.bottomAnchor, constant: 0),
+                    self.errorView.heightAnchor.constraint(greaterThanOrEqualToConstant: 500),
+                    self.errorView.trailingAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.trailingAnchor),
+                    self.errorView.leadingAnchor.constraint(equalTo: self.mainStackView.layoutMarginsGuide.leadingAnchor),
+                    self.errorView.centerXAnchor.constraint(equalTo: self.mainStackView.centerXAnchor),
+                    self.errorLabel.topAnchor.constraint(equalTo: self.errorView.centerYAnchor),
+                    self.errorLabel.trailingAnchor.constraint(equalTo: self.errorView.layoutMarginsGuide.trailingAnchor, constant: 1),
+                     self.errorLabel.leadingAnchor.constraint(equalTo: self.errorView.layoutMarginsGuide.leadingAnchor, constant: 1)
                     ])
                 }
             }

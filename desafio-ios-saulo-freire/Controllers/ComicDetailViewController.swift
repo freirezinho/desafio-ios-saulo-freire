@@ -116,10 +116,9 @@ class ComicDetailViewController: UIViewController, APIWorker {
         guard let portraitView = comicPortraitView else {return}
     
         titleLabel.text = title
-        if let desc = description {
-            if (desc.count > 0) {
-                descriptionLabel.text = desc
-            }
+
+        if description != nil && description!.count > 0 {
+            descriptionLabel.text = description
         } else {
             descriptionLabel.text = "No description recorded."
         }
