@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D9BD724C3D2C1003726C7 /* HomeVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D9BD624C3D2C1003726C7 /* HomeVCTests.swift */; };
+		047D9BDB24C3D622003726C7 /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 047D9BDA24C3D622003726C7 /* mockData.json */; };
+		0484C3F724C10E1B00A64433 /* ComicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C3F624C10E1B00A64433 /* ComicDetailViewController.swift */; };
+		04B7B98424C37555004E0DA1 /* APIGenericCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7B98324C37555004E0DA1 /* APIGenericCodables.swift */; };
+		04B7B98624C3963A004E0DA1 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7B98524C3963A004E0DA1 /* UtilsTests.swift */; };
+		04B7B99224C3980E004E0DA1 /* CommonCryptoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A224B2AEAC0009F641 /* CommonCryptoClass.m */; };
+		04B7B99424C3AE0E004E0DA1 /* CharacterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7B99324C3AE0E004E0DA1 /* CharacterViewControllerTests.swift */; };
+		04B7B99624C3C018004E0DA1 /* ComicDetailVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7B99524C3C018004E0DA1 /* ComicDetailVCTests.swift */; };
+		04B7B99724C3C05E004E0DA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367624B112040009F641 /* HomeViewController.swift */; };
+		04B7B99824C3C061004E0DA1 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A724B41FCF0009F641 /* CharacterViewController.swift */; };
+		04B7B99924C3C063004E0DA1 /* ComicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C3F624C10E1B00A64433 /* ComicDetailViewController.swift */; };
+		04B7B99A24C3C065004E0DA1 /* APIGenericCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7B98324C37555004E0DA1 /* APIGenericCodables.swift */; };
+		04B7B99B24C3C067004E0DA1 /* CharacterCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369A24B12ADF0009F641 /* CharacterCodables.swift */; };
+		04B7B99C24C3C06B004E0DA1 /* ComicCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369D24B12CA90009F641 /* ComicCodables.swift */; };
+		04B7B99D24C3C06D004E0DA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A424B2B1450009F641 /* Constants.swift */; };
+		04B7B99E24C3C06F004E0DA1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369F24B2ADF40009F641 /* Utils.swift */; };
+		04B7B99F24C3C072004E0DA1 /* MarvelCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369524B1216E0009F641 /* MarvelCharacterCell.swift */; };
+		04B7B9A024C3C074004E0DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367824B112040009F641 /* Main.storyboard */; };
+		04B7B9A124C3C077004E0DA1 /* MarvelCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CF369624B1216E0009F641 /* MarvelCharacterCell.xib */; };
 		04CF367324B112040009F641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367224B112040009F641 /* AppDelegate.swift */; };
 		04CF367524B112040009F641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367424B112040009F641 /* SceneDelegate.swift */; };
-		04CF367724B112040009F641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367624B112040009F641 /* ViewController.swift */; };
+		04CF367724B112040009F641 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF367624B112040009F641 /* HomeViewController.swift */; };
 		04CF367A24B112040009F641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367824B112040009F641 /* Main.storyboard */; };
 		04CF367C24B1120A0009F641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367B24B1120A0009F641 /* Assets.xcassets */; };
 		04CF367F24B1120A0009F641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF367D24B1120A0009F641 /* LaunchScreen.storyboard */; };
-		04CF368A24B1120A0009F641 /* desafio_ios_saulo_freireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */; };
+		04CF369724B1216E0009F641 /* MarvelCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369524B1216E0009F641 /* MarvelCharacterCell.swift */; };
+		04CF369824B1216E0009F641 /* MarvelCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CF369624B1216E0009F641 /* MarvelCharacterCell.xib */; };
+		04CF369B24B12ADF0009F641 /* CharacterCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369A24B12ADF0009F641 /* CharacterCodables.swift */; };
+		04CF369E24B12CA90009F641 /* ComicCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369D24B12CA90009F641 /* ComicCodables.swift */; };
+		04CF36A024B2ADF40009F641 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF369F24B2ADF40009F641 /* Utils.swift */; };
+		04CF36A324B2AEAC0009F641 /* CommonCryptoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A224B2AEAC0009F641 /* CommonCryptoClass.m */; };
+		04CF36A524B2B1450009F641 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A424B2B1450009F641 /* Constants.swift */; };
+		04CF36A824B41FCF0009F641 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF36A724B41FCF0009F641 /* CharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +53,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047D9BD624C3D2C1003726C7 /* HomeVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTests.swift; sourceTree = "<group>"; };
+		047D9BDA24C3D622003726C7 /* mockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockData.json; sourceTree = "<group>"; };
+		0484C3F624C10E1B00A64433 /* ComicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailViewController.swift; sourceTree = "<group>"; };
+		04B7B98324C37555004E0DA1 /* APIGenericCodables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIGenericCodables.swift; sourceTree = "<group>"; };
+		04B7B98524C3963A004E0DA1 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		04B7B99324C3AE0E004E0DA1 /* CharacterViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewControllerTests.swift; sourceTree = "<group>"; };
+		04B7B99524C3C018004E0DA1 /* ComicDetailVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailVCTests.swift; sourceTree = "<group>"; };
 		04CF366F24B112040009F641 /* desafio-ios-saulo-freire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-saulo-freire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF367224B112040009F641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CF367424B112040009F641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04CF367624B112040009F641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CF367624B112040009F641 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04CF367924B112040009F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CF367B24B1120A0009F641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CF367E24B1120A0009F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CF368024B1120A0009F641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CF368524B1120A0009F641 /* desafio-ios-saulo-freireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-ios-saulo-freireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_ios_saulo_freireTests.swift; sourceTree = "<group>"; };
 		04CF368B24B1120A0009F641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CF369524B1216E0009F641 /* MarvelCharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacterCell.swift; sourceTree = "<group>"; };
+		04CF369624B1216E0009F641 /* MarvelCharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarvelCharacterCell.xib; sourceTree = "<group>"; };
+		04CF369A24B12ADF0009F641 /* CharacterCodables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCodables.swift; sourceTree = "<group>"; };
+		04CF369D24B12CA90009F641 /* ComicCodables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCodables.swift; sourceTree = "<group>"; };
+		04CF369F24B2ADF40009F641 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		04CF36A124B2AEAC0009F641 /* desafio-ios-saulo-freire-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafio-ios-saulo-freire-Bridging-Header.h"; sourceTree = "<group>"; };
+		04CF36A224B2AEAC0009F641 /* CommonCryptoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoClass.m; sourceTree = "<group>"; };
+		04CF36A424B2B1450009F641 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04CF36A724B41FCF0009F641 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B7B98224C354FE004E0DA1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04CF36A424B2B1450009F641 /* Constants.swift */,
+				04CF369F24B2ADF40009F641 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		04CF366624B112040009F641 = {
 			isa = PBXGroup;
 			children = (
 				04CF367124B112040009F641 /* desafio-ios-saulo-freire */,
 				04CF368824B1120A0009F641 /* desafio-ios-saulo-freireTests */,
 				04CF367024B112040009F641 /* Products */,
+				04CF36A124B2AEAC0009F641 /* desafio-ios-saulo-freire-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +130,13 @@
 		04CF367124B112040009F641 /* desafio-ios-saulo-freire */ = {
 			isa = PBXGroup;
 			children = (
+				04CF36A224B2AEAC0009F641 /* CommonCryptoClass.m */,
+				04CF36A624B3759C0009F641 /* Controllers */,
+				04CF369924B12ACC0009F641 /* Models */,
+				04B7B98224C354FE004E0DA1 /* Utils */,
+				04CF369424B121380009F641 /* Views */,
 				04CF367224B112040009F641 /* AppDelegate.swift */,
 				04CF367424B112040009F641 /* SceneDelegate.swift */,
-				04CF367624B112040009F641 /* ViewController.swift */,
-				04CF367824B112040009F641 /* Main.storyboard */,
 				04CF367B24B1120A0009F641 /* Assets.xcassets */,
 				04CF367D24B1120A0009F641 /* LaunchScreen.storyboard */,
 				04CF368024B1120A0009F641 /* Info.plist */,
@@ -93,10 +147,44 @@
 		04CF368824B1120A0009F641 /* desafio-ios-saulo-freireTests */ = {
 			isa = PBXGroup;
 			children = (
-				04CF368924B1120A0009F641 /* desafio_ios_saulo_freireTests.swift */,
+				047D9BDA24C3D622003726C7 /* mockData.json */,
 				04CF368B24B1120A0009F641 /* Info.plist */,
+				04B7B98524C3963A004E0DA1 /* UtilsTests.swift */,
+				04B7B99324C3AE0E004E0DA1 /* CharacterViewControllerTests.swift */,
+				04B7B99524C3C018004E0DA1 /* ComicDetailVCTests.swift */,
+				047D9BD624C3D2C1003726C7 /* HomeVCTests.swift */,
 			);
 			path = "desafio-ios-saulo-freireTests";
+			sourceTree = "<group>";
+		};
+		04CF369424B121380009F641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CF367824B112040009F641 /* Main.storyboard */,
+				04CF369524B1216E0009F641 /* MarvelCharacterCell.swift */,
+				04CF369624B1216E0009F641 /* MarvelCharacterCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04CF369924B12ACC0009F641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B7B98324C37555004E0DA1 /* APIGenericCodables.swift */,
+				04CF369A24B12ADF0009F641 /* CharacterCodables.swift */,
+				04CF369D24B12CA90009F641 /* ComicCodables.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04CF36A624B3759C0009F641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CF367624B112040009F641 /* HomeViewController.swift */,
+				04CF36A724B41FCF0009F641 /* CharacterViewController.swift */,
+				0484C3F624C10E1B00A64433 /* ComicDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +237,7 @@
 				TargetAttributes = {
 					04CF366E24B112040009F641 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					04CF368424B1120A0009F641 = {
 						CreatedOnToolsVersion = 11.3;
@@ -180,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CF369824B1216E0009F641 /* MarvelCharacterCell.xib in Resources */,
 				04CF367F24B1120A0009F641 /* LaunchScreen.storyboard in Resources */,
 				04CF367C24B1120A0009F641 /* Assets.xcassets in Resources */,
 				04CF367A24B112040009F641 /* Main.storyboard in Resources */,
@@ -190,6 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D9BDB24C3D622003726C7 /* mockData.json in Resources */,
+				04B7B9A124C3C077004E0DA1 /* MarvelCharacterCell.xib in Resources */,
+				04B7B9A024C3C074004E0DA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CF367724B112040009F641 /* ViewController.swift in Sources */,
+				04CF369724B1216E0009F641 /* MarvelCharacterCell.swift in Sources */,
+				0484C3F724C10E1B00A64433 /* ComicDetailViewController.swift in Sources */,
+				04CF36A024B2ADF40009F641 /* Utils.swift in Sources */,
+				04CF367724B112040009F641 /* HomeViewController.swift in Sources */,
 				04CF367324B112040009F641 /* AppDelegate.swift in Sources */,
 				04CF367524B112040009F641 /* SceneDelegate.swift in Sources */,
+				04CF369E24B12CA90009F641 /* ComicCodables.swift in Sources */,
+				04B7B98424C37555004E0DA1 /* APIGenericCodables.swift in Sources */,
+				04CF36A824B41FCF0009F641 /* CharacterViewController.swift in Sources */,
+				04CF36A324B2AEAC0009F641 /* CommonCryptoClass.m in Sources */,
+				04CF369B24B12ADF0009F641 /* CharacterCodables.swift in Sources */,
+				04CF36A524B2B1450009F641 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +312,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CF368A24B1120A0009F641 /* desafio_ios_saulo_freireTests.swift in Sources */,
+				04B7B99A24C3C065004E0DA1 /* APIGenericCodables.swift in Sources */,
+				04B7B99F24C3C072004E0DA1 /* MarvelCharacterCell.swift in Sources */,
+				04B7B98624C3963A004E0DA1 /* UtilsTests.swift in Sources */,
+				04B7B99824C3C061004E0DA1 /* CharacterViewController.swift in Sources */,
+				04B7B99B24C3C067004E0DA1 /* CharacterCodables.swift in Sources */,
+				04B7B99E24C3C06F004E0DA1 /* Utils.swift in Sources */,
+				04B7B99624C3C018004E0DA1 /* ComicDetailVCTests.swift in Sources */,
+				04B7B99424C3AE0E004E0DA1 /* CharacterViewControllerTests.swift in Sources */,
+				04B7B99224C3980E004E0DA1 /* CommonCryptoClass.m in Sources */,
+				047D9BD724C3D2C1003726C7 /* HomeVCTests.swift in Sources */,
+				04B7B99C24C3C06B004E0DA1 /* ComicCodables.swift in Sources */,
+				04B7B99724C3C05E004E0DA1 /* HomeViewController.swift in Sources */,
+				04B7B99924C3C063004E0DA1 /* ComicDetailViewController.swift in Sources */,
+				04B7B99D24C3C06D004E0DA1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "desafio-ios-saulo-freire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,6 +486,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "desafio-ios-saulo-freire-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "desafio-ios-saulo-freire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "work.freire.saulo.desafio-ios-saulo-freire";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "desafio-ios-saulo-freire-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
